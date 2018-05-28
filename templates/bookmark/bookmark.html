@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% extends 'base.html' %}
+{% block content %}
+    Bookmark List
+{% endblock %}
+
+{% bolck content %}
+    <div class=""btn-group d-block text-right mb-l" role="group">
+        <a href="#" class=""btn btn
+    </div>
+Bookmark List
+    {% for bookmark in object_list %}
+        {{bookmark.site_name}}
+        {{bookmark.url}}<br/>
+    {% endfor %}
+{% endbolck %}
+</body>
+</html>
